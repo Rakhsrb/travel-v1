@@ -1,0 +1,130 @@
+.overlay_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba(0, 47, 39, 0.374),
+      rgba(0, 43, 46, 0.31)
+    ),
+    url("../../assets/backgrounds/home_main_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.form-control :where(input, .selectfield) {
+  background: white;
+  height: 70px;
+  padding: 10px 50px;
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.form-control .search-button {
+  color: white;
+  background: #f85959;
+  padding: 10px 50px;
+  height: 70px;
+}
+
+.form-control input::placeholder {
+  color: #4d4d4d;
+}
+
+.selectfield svg {
+  font-size: 10px;
+}
+
+.form-control select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff !important;
+  padding: 12px;
+}
+
+.browse_highlights li {
+  border-radius: 2px;
+  transition: 0.2s all linear;
+  padding: 10px 15px;
+  background: #fff;
+}
+
+.browse_highlights li:hover {
+  background: #f85959;
+  color: white;
+}
+
+.service_cards > div {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: #fff;
+  padding: 40px 30px;
+}
+
+/* asdasd */
+
+@media (max-width: 768px) {
+  .service_cards > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+    padding: 40px 20px;
+  }
+}
+
+.service_cards svg {
+  color: red;
+}
+
+.service_cards > div:hover {
+  transition: 0.2s;
+  color: white;
+  background: #f85959;
+}
+
+.service_cards > div:hover :where(p, svg) {
+  transition: 0.2s;
+  color: white;
+}
+
+.swiper-slide a {
+  display: block;
+  height: 300px;
+}
+
+.slider-next-button {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+}
+
+.slider-prev-button {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+}
+
+.funfacts::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  z-index: -1;
+  opacity: 0.9;
+  background: -webkit-linear-gradient(315deg, #2ebdc4 0%, #68e5b2 100%);
+}
+
+.funfacts ul p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.699);
+}
+
+.subscribeSection {
+  background: -webkit-linear-gradient(315deg, #2ebdc4 0%, #68e5b2 100%);
+}

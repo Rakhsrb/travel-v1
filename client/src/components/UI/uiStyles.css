@@ -1,0 +1,13 @@
+.imgHover span {
+  top: calc(50% - 30px);
+  right: calc(50% - 30px);
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.3s;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.imgHover:hover span {
+  opacity: 1;
+}

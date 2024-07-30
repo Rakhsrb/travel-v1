@@ -1,0 +1,50 @@
+nav {
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent ;
+  -webkit-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}
+
+nav a.active {
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+nav.navAwake a.active {
+  color: #f85959;
+}
+
+nav ul li a {
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.navSleep {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-top: -130px;
+  -webkit-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}
+
+.navAwake {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-top: 0;
+  background: #fff !important;
+  color: black !important;
+  margin-top: 0px;
+  -webkit-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}

@@ -1,0 +1,41 @@
+/* HOTEL DETAILS STYLES  */
+
+.slider-next-button {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+}
+
+.slider-prev-button {
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+}
+
+.details-form :where(input, .details-form_select) {
+  background: #fff !important;
+  color: #4d4d4d !important;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
+.details-form select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* BLOG DETAILS STYLES */
+.blogDetails-form :where(input, textarea) {
+  background: #fff;
+  color: #4d4d4d;
+  border: 1px solid #ced4da;
+  font-size: 14px;
+  padding: 15px 20px;
+}
+
+.blogDetails-form label {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4d4d4dbb;
+}

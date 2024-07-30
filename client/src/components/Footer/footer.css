@@ -1,0 +1,9 @@
+footer {
+  background-color: #212121;
+  color: white;
+}
+
+.footer_list a:hover {
+  color: white;
+  transition: .5s;
+}
