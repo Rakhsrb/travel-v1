@@ -28,8 +28,8 @@ const MainSlice = createSlice({
       isPending: false,
       isError: false,
     },
-    baseUrlApi: "https://travel-backend-4uug.onrender.com/",
-    // baseUrlApi: "http://localhost:4800/",
+    // baseUrlApi: "https://travel-backend-4uug.onrender.com/",
+    baseUrlApi: "http://localhost:4800/",
     config: {
       headers: {
         Authorization: JSON.parse(localStorage.getItem("token")),
